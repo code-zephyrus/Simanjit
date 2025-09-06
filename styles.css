@@ -252,12 +252,24 @@ html,body{
   .cyberpunk-btn { width: 100%; text-align: center; font-size: 14px; padding: 10px 0; }
   .section { padding: 22px 0; }
   .section-title { font-size: 16px; }
+  .cyberpunk-btn.phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .muted { font-size: 13px; }
   .grid { grid-template-columns: 1fr; gap: 10px; }
   .card { padding: 10px; font-size: 14px; }
   .card .title { font-size: 15px; }
   .card .desc { font-size: 13px; }
   .stats { flex-direction: column; gap: 6px; }
+  .cyberpunk-btn.phone .phone-number {
+    display: block;
+    margin-top: 2px;
+    font-size: 13px;
+    word-break: break-all;
+  }
   .contact-actions { flex-direction: column; gap: 8px; align-items: stretch; }
   .icon-link, .cyberpunk-btn { width: 100%; margin: 0 0 8px 0; }
   .cyberpunk-visual-section { min-height: 36px; }
