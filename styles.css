@@ -220,5 +220,52 @@ html,body{
 .icon-link:hover{color:var(--accent);background:rgba(70,240,255,0.03)}
 
 /* responsive */
-@media (max-width:900px){.hero{grid-template-columns:1fr}.sub{max-width:100%}.logo{width:48px;height:48px}}
-@media (max-width:520px){.nav{display:none}}
+
+/* Responsive: Tablet */
+@media (max-width: 900px) {
+  .container { width: 98%; }
+  .hero { grid-template-columns: 1fr; gap: 18px; padding: 36px 0; }
+  .hero-right { margin-top: 18px; }
+  .sub { max-width: 100%; font-size: 15px; }
+  .logo { width: 44px; height: 44px; }
+  .section { padding: 32px 0; }
+  .grid { gap: 14px; }
+  .cyberpunk-visual-section { min-height: 60px; }
+  .cyberpunk-bg { height: 60px; }
+  .cyberpunk-circuit { height: 40px; }
+}
+
+/* Responsive: Mobile */
+@media (max-width: 600px) {
+  html, body { font-size: 15px; }
+  .container { width: 100%; padding: 0 2vw; }
+  .site-header { flex-direction: column; align-items: flex-start; gap: 10px; padding: 14px 0; }
+  .brand { gap: 8px; }
+  .logo { width: 36px; height: 36px; }
+  .titles .name { font-size: 1.3rem; }
+  .role { font-size: 11px; }
+  .nav { width: 100%; display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .nav a { margin-left: 0; padding: 6px 10px; font-size: 14px; }
+  .hero { padding: 22px 0; gap: 10px; }
+  .headline { font-size: 20px; }
+  .ctas { flex-direction: column; gap: 8px; }
+  .cyberpunk-btn { width: 100%; text-align: center; font-size: 14px; padding: 10px 0; }
+  .section { padding: 22px 0; }
+  .section-title { font-size: 16px; }
+  .muted { font-size: 13px; }
+  .grid { grid-template-columns: 1fr; gap: 10px; }
+  .card { padding: 10px; font-size: 14px; }
+  .card .title { font-size: 15px; }
+  .card .desc { font-size: 13px; }
+  .stats { flex-direction: column; gap: 6px; }
+  .contact-actions { flex-direction: column; gap: 8px; align-items: stretch; }
+  .icon-link, .cyberpunk-btn { width: 100%; margin: 0 0 8px 0; }
+  .cyberpunk-visual-section { min-height: 36px; }
+  .cyberpunk-bg { height: 36px; }
+  .cyberpunk-circuit { height: 20px; }
+}
+
+/* Hide nav on very small screens, show hamburger if needed */
+@media (max-width: 420px) {
+  .nav { display: none; }
+}
