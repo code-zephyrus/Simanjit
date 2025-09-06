@@ -12,7 +12,7 @@ Welcome to my digital space! Here’s a peek at my projects, skills, and experim
 ---
 
 ## 🌐 Live Demo
-[Check it out here](https://<username>.github.io/Simanjit/)  
+[Check it out here](https://code-zephyrus.github.io/Simanjit/)  
 
 ---
 
