@@ -1,13 +1,22 @@
-# Cyberpunk Portfolio — Cool & Classy (v2)
+# Simanjit Portfolio 💻
 
-This improved template focuses on a subtle, classy cyberpunk aesthetic: dark glass panels, minimal neon accents, and smooth reveals.
+Welcome to my digital space! Here’s a peek at my projects, skills, and experiments in programming, AI/ML, robotics, and software development.
 
-## Quick start
-1. Open this folder in VS Code.
-2. Replace placeholders in `index.html` (YOUR NAME, links) and update `projects` array in `scripts.js`.
-3. Preview with Live Server or `python -m http.server 8000`.
+---
 
-## Deploy
-- Push to GitHub and enable Pages OR deploy via Netlify/Vercel (connect repo).
+## ⚡ Highlights
+- Projects & Mini Experiments  
+- Skills & Tech Stack  
+- Get in Touch  
 
-Enjoy — edit freely.
+---
+
+## 🌐 Live Demo
+[Check it out here](https://<username>.github.io/Simanjit/)  
+
+---
+
+## 📫 Connect
+- GitHub: [github.com/<username>](https://github.com/<username>)  
+- LinkedIn: [linkedin.com/in/<username>](https://linkedin.com/in/<username>)  
+- Email: [<your-email@example.com>](mailto:<your-email@example.com>)
